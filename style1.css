@@ -1,0 +1,86 @@
+body {
+	margin: 0;
+	background-image: url(img/xiamendaxue.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: midnightblue;
+}
+
+nav {
+	display: table;
+	width: 100%;
+	position: fixed;
+	box-shadow: 0 5px 10px dimgrey;
+	background-color: gold;
+}
+
+nav a {
+	display: table-cell;
+	text-align: center;
+	text-decoration: none;
+	font-size: 24px;
+	color: #fff;
+	padding: 0px 0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3rem;
+}
+
+h2 {
+	color: white;
+}
+
+h3 {
+	color: white;
+}
+
+P {
+	color: white;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 30px auto;
+}
+
+figure {
+	color: #fff;
+	font-size: 12px;
+	border: 1px solid #fff;
+	margin: 0;
+	opacity: 0.6;
+}
+
+figure:hover {
+	background-color: gold;
+	color: #000;
+	letter-spacing: 2px;
+	opacity: 1;
+	text-align: center;
+}
+
+figure a {
+	display: inline-block;
+	width: 300px;
+	overflow: hidden;
+	text-align: center;
+}
+
+figure img {
+	width: 25%;
+}
+
+figure img:hover {
+	transform: scale(1.2);
+	transition: 0.5s;
+	opacity: 1;
+}
+
+figcaption {
+	text-align: center;
+	margin: 5px;
+}
